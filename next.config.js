@@ -10,6 +10,7 @@ module.exports = {
   images: {
     domains: [
       process.env.WORDPRESS_API_URL[0], // Valid WP Image domain.
+      'localhost',
       '0.gravatar.com',
       '1.gravatar.com',
       '2.gravatar.com',
